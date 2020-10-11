@@ -2,3 +2,11 @@
 body{
     background-color: rgb(209, 142, 59);
 }
+/* Main area*/
+.wrapper {
+ display: grid;
+ -moz-box-align:center;
+ grid-template-columns: 1fr 1fr 1fr;
+ grid-template-rows: 100px 100px;
+ background-color: blanchedalmond;
+}
