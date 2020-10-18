@@ -2,11 +2,21 @@
 body{
     background-color: rgb(209, 142, 59);
 }
+/* Title*/
+.title{
+    
+    margin: auto;
+    width: 50%;
+    border: 2px solid #d2ff8f;
+    padding: 10px;
+    border-radius: 5px;
+}
+
 /* Main area*/
 .wrapper {
- display: grid;
- -moz-box-align:center;
- grid-template-columns: 1fr 1fr 1fr;
- grid-template-rows: 100px 100px;
- background-color: blanchedalmond;
+    display: grid;
+    -moz-box-align:center;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 50px 100px 100px;
+    background-color: blanchedalmond;
 }
