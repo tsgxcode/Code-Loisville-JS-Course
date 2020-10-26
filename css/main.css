@@ -3,14 +3,19 @@ body{
     background-color: rgb(209, 142, 59);
 }
 /* Title*/
+.H2{
+    text-align: center;
+}
+
 .title{
-    
+    text-align: center;
     margin: auto;
     width: 50%;
     border: 2px solid #d2ff8f;
     padding: 10px;
     border-radius: 5px;
 }
+
 
 /* Main area*/
 .wrapper {
