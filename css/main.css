@@ -11,17 +11,22 @@ body{
 .wrapper {
     display: grid;
     text-align: center;
-    grid-template-columns: 100px;
+    padding: 20px;
     background-color: blanchedalmond;
 }
 
-.field_1, .field_2 {
+.form_header {
     padding: 5px;
-    border-radius: 5px;
-    width: 200px; 
-    text-align: center;
-    grid-template-rows: 75px;
+    margin-right: 0%;
 }
 
+.form {
+    padding: 5px;
+    margin-left: 5;
+}
 
+.submit {
+    padding: 0px;
+    margin-left: -5%;
+}
 
