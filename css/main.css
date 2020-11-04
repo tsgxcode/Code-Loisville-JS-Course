@@ -1,4 +1,9 @@
+  /* Base Styles */
+  body{
+    margin: 0;
+    padding: 0;
 
+  }
 body{
     background-color: rgb(209, 142, 59);
 }
@@ -11,22 +16,33 @@ body{
 .wrapper {
     display: grid;
     text-align: center;
+    margin: auto;
+    overflow:hidden;
     padding: 20px;
+    width: 200px;
     background-color: blanchedalmond;
 }
 
 .form_header {
+
     padding: 5px;
     margin-right: 0%;
 }
 
 .form {
-    padding: 5px;
-    margin-left: 5;
+    display: grid;
+    font-family: 'Courier New', Courier, monospace;
+    
+    
 }
 
-.submit {
-    padding: 0px;
-    margin-left: -5%;
-}
+ /* Media Quaries */
 
+@media (max-width: 769px)
+  
+        {
+    .wrapper {
+     
+
+    }
+ } 
