@@ -1,3 +1,6 @@
-const vinyl = "Vinyl Hound!";
+//Variables
+const seclect = document.getElementById('Artist');
+const seclect = document.getElementById('Year');
 
-console.log(vinyl);
+//Fetch
+fetch('https://api.discogs.com/artists/1?callback=callbackname');
