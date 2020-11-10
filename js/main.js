@@ -1,6 +1,6 @@
 //Variables
-const Artist = document.getElementById('Artist');
-const Year = document.getElementById('Year');
+const artist = document.getElementById('Artist');
+const year = document.getElementById('Year');
 const fonm = document.querySelector('form'); 
 
 //Fetch
