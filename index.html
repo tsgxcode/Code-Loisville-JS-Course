@@ -5,28 +5,40 @@
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
     <head>
         <meta charset="utf-8">
-        
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title></title>
+        <script  defer src="main.js"></script>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css\main.css">
     </head>
     <body>
-        <h4 class="H2">Vinyl Hound Record Finder... RELEASE THE HOUNDS!</h4>
-        <!--Vinyl Hound - JavaScritp Project 23.Sep.2020-->
+        <h4 class="H2">Record Stash!</h4>
+        <!--Record Stash! - JavaScritp Project 23.Sep.2020-->
         <div class="wrapper">
             <fields_header class="form_header">Please enter Artist info</header>
               <br>
               <br>
-            <div class="artist"><input type"text" name="Artist" autocomplete="off" required/>Band</div>
-            <div class="year"><input type"text" name="Year" autocomplete="off" required/>Year</div>
-              <br>
-            <button class="form">Search</button>
+              <div id="error"></div>
+              <form id="form" action="/" method="GET">
+                <div>
+                  <label for="Artist">Artist</label>
+                  <input id="Artist" name="Artist" type="text" autocomplete="off">
+                </div>
+                <div>
+                  <label for="Album">Album</label>
+                  <input id="Album" name="Album" type="text" autocomplete="off">
+                </div>
+                <div>
+                  <label for="Year">Year</label>
+                  <input id="Year" name="Year" type="text" autocomplete="off">
+                </div>
+                <button type="submit">Submit</button>
+              </form>
            </wrapper>
-              <br>
+              <br><br>
            <authorInfo class="footer">(C) TSG 2020</authorInfo>
-        <script src="main.js"></script>
+           <script  defer src="main.js"></script>
     </body>
 </html>
 

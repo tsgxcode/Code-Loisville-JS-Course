@@ -1,8 +1,12 @@
 //Variables
 const artist = document.getElementById('Artist');
-const year = document.getElementById('Year');
-const form = document.querySelector('form'); 
+const album = document.getElementById('Album');
+const year = document.getElementById('Year'); 
+const errorElement = document.getElementById('error');
 
-//Fetch
-fetch('https://www.discogs.com/search/?q=Vinyl&type=all')
-    .then(response => console.log(response))
+//Adding to collection
+Form.addEventListener('submit', (e) => {
+    let message = []
+    if (name.value === '' || name.value == null)
+      message.push('Information required')
+    })

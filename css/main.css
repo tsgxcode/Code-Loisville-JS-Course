@@ -29,7 +29,7 @@ body{
     margin-right: 0%;
 }
 
-.artist, .year {
+.artist, .album, .year {
     display: grid;
     font-family: 'Courier New', Courier, monospace;
     
