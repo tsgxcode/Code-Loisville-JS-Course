@@ -5,8 +5,4 @@ const year = document.getElementById('Year');
 const errorElement = document.getElementById('error');
 
 //Adding to collection
-Form.addEventListener('submit', (e) => {
-    let message = []
-    if (name.value === '' || name.value == null)
-      message.push('Information required')
-    })
+const database = new DataStore({filename: 'anything.db', autoload: true});
