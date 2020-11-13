@@ -2,7 +2,9 @@
 const artist = document.getElementById('Artist');
 const album = document.getElementById('Album');
 const year = document.getElementById('Year'); 
-const errorElement = document.getElementById('error');
+const submit = document.getElementById('submit');
 
-//Adding to collection
-const database = new DataStore({filename: 'anything.db', autoload: true});
+//Conecting to Firebase Database
+
+//Event listener
+document.getElementById('form')
