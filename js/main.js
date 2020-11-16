@@ -34,6 +34,7 @@ function getElementById(id){
   return document.getElementById(id).value;
 }
 
+//Saving to Firebase
 function saveInfo(Artist, Album, Year){
   var newInfoRef = infoRef.push();
   newInfoRef.set({
@@ -41,15 +42,5 @@ function saveInfo(Artist, Album, Year){
       Album:Album,
       Year:Year
   });
-}
-
-//Save info to Firebase
-function saveInfo(Artist, Album, Year){
-  var newInforef = infoRef.push();
-  newInfoRef.set({
-      Artist:Artist,
-      Album:Album,
-      Year:Year
-  })    
 }
 
