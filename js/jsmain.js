@@ -42,4 +42,3 @@ function saveInfo(Artist, Album, Year){
       Year: Year
   });
 }
-
