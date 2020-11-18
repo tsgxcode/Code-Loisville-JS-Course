@@ -13,7 +13,7 @@
     measurementId: "G-HKQVY3VXC1"
   };
   // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
+  
   
 
 function writeData(){
