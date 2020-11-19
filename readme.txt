@@ -2,7 +2,7 @@ ReadMe
 
 Record Stash! 
 
-This is kind of a catolog for storing record colletion info:
+This is kind of a catolog for storing record colletion data, for vinyl collectors:
 Artist's name, the album, the year is was released. 
 It is stored in Firebase(by Google). The user need a Google Firebase account(the free version is fine) 
 and the fields will be automatically created when he/she creates the app.
