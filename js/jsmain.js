@@ -14,17 +14,32 @@
   };
   // Initialize Firebase
   
-  
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+  var messagesRef = firebase.database().ref('messages');
 
 function writeData(){
   firebase.database().ref("form").set({
     Artist: document.getElementById("Artist").value,
     Album: document.getElementById("Album").value,
-    Year: document.getElementById("Year").value,
+    Year: document.getElementById("Year").value
 
     
   })
 }
+
+//Confirm validation if/else statement 
+function onFormSubmit() {
+    if (validate()) {
+        var formData = readFormData();
+        if (selectedRow == null)
+            insertNewRecord(formData);
+        else
+            updateRecord(formData);
+        resetForm();
+    }
+  }
+
 
 //Event listener
 document.getElementById('form').addEventListener('submit', form);
@@ -38,7 +53,7 @@ function saveInfo(Artist, Album, Year){
   var newInfoRef = infoRef.push();
   newInfoRef.set({
       Artist:Artist,
-      Album: Album,
-      Year: Year
+      Album:Album,
+      Year:Year
   });
 }
