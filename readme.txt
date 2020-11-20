@@ -9,7 +9,7 @@ Dependencies
 The data is stored in Firebase(by Google). The user need a Google Firebase account(the free version is fine) 
 and the fields will be automatically created when he/she creates the app.
 You'll need this file in your Java Script:
-Your info wil be where the XXs are.
+Once your database is generated your info wil be where the XXs are.
 // Your web app's Firebase configuration
   // For Firebase JS SDK v7.20.0 and later, measurementId is optional
   var firebaseConfig = {
@@ -23,7 +23,7 @@ Your info wil be where the XXs are.
     measurementId: "xxxxxxxxxxxxxx"
   };
   
-  You'll need these at at the bottom of your HTML body:
+  You'll need these at the bottom of your HTML body:
   (NOTE: Make sure the version numbers match the current version in your Script tags. e.g. 8.0.2 belowe )
            <script src="https://www.gstatic.com/firebasejs/8.0.2/firebase-app.js"></script>
            <script src="https://www.gstatic.com/firebasejs/8.0.2/firebase-auth.js"></script>
