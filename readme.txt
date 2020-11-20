@@ -5,6 +5,8 @@ Record Stash!
 This is kind of a catolog for storing record colletion data, for vinyl collectors:
 Artist's name, the album, the year is was released. 
 
+The program sends data to a Firebase database saves it,
+The data can then be exported as CVS or JSON file.
 Dependencies
 The data is stored in Firebase(by Google). The user need a Google Firebase account(the free version is fine) 
 and the fields will be automatically created when he/she creates the app.
@@ -34,8 +36,8 @@ Once your database is generated your info wil be where the XXs are.
 
 Here is the basic start point for setting up a Firebase app.
 https://firebase.google.com/docs/web/setup?authuser=0
-
-NOTE: If you all ready have a Google acccount / Email you should be able signed into all of Google, including the Firebase site.
+ 
+NOTE:  You will need to signup for a free Google Firebase account  If you all ready have a Google acccount / Email you should be able signed into all of Google, including the Firebase site.
 
 Features I'd like to add to this project include:
 A field for the user to choose an email address to send a copy (text, JSON, CSV, etc)of the data stored to.
